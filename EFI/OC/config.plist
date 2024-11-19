@@ -1249,17 +1249,17 @@
                 <key>InstanceIdentifier</key>
                 <string></string>
                 <key>LauncherOption</key>
-                <string>Full</string>
+                <string>Disabled</string>
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
-                <integer>17</integer>
+                <integer>129</integer>
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
-                <string>Builtin</string>
+                <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>Acidanthera\GoldenGate</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -1267,7 +1267,7 @@
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
-                <integer>30</integer>
+                <integer>20</integer>
             </dict>
             <key>Debug</key>
             <dict>
@@ -1389,7 +1389,7 @@
                     <key>revcpu</key>
                     <integer>1</integer>
                     <key>revcpuname</key>
-                    <string></string>
+                    <string>Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -1398,7 +1398,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>ipc_control_port_options=0 -igfxblr igfxonln=1 debug=0x100 keepsyms=1 alcid=21</string>
+                    <string>ipc_control_port_options=0 -amfipassbeta revpatch=sbvmm -cdfon -igfxblr igfxonln=1 debug=0x100 keepsyms=1 alcid=21 shikigva=80</string>
                     <key>csr-active-config</key>
                     <data>7w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1596,7 +1596,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
